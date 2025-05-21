@@ -23,6 +23,7 @@ class url:
         r = requests.get(self.uri)
         print(r.headers)        
 
+# Instantiate object
 amazon = url("https://amazon.com")
 
 amazon.status_code()
